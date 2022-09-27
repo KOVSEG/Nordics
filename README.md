@@ -1,2 +1,2 @@
 # Nordics
-simple site for buildt company
+simple site for building company
