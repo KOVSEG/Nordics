@@ -1,0 +1,27 @@
+
+/* Main */
+.chapter__one {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.worklist {
+    white-space: pre;
+}
+
+.shop__image {
+    width: 300px;
+}
+
+.odk, .ksdk {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    padding: 7px;
+}
+
+.ksdk__image {
+    width: 200px;
+}

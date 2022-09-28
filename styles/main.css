@@ -44,7 +44,7 @@ rgba(235,235,235,1) 52%);
 
 .header__inner {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 3, 1fr;
 }
 
 .header__logo {
@@ -187,8 +187,6 @@ rgba(235,235,235,1) 52%);
   filter: invert(1);
 }
 
-
 .footer__company {
   grid-column: 3 / 4;
 }
-
