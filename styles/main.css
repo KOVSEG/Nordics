@@ -23,9 +23,18 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto;
 }
 
+.content {
+  display: grid;
+  height: 100vh;
+  align-content: stretch;
+}
+
 /* Header */
 .header {
+  display: grid;
+  align-items: center;
   width: 100%;
+  height: 145px;
   margin-bottom: 50px;
   background: rgb(102,137,189);
   background: linear-gradient(180deg,
@@ -35,12 +44,13 @@ rgba(235,235,235,1) 52%);
 
 .header__inner {
   display: grid;
-  grid-template-columns: 3, 1fr;
-  grid-template-rows: 1, 1fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .header__logo {
   grid-column: 1 / 2;
+  text-align: center;
+  margin-right: 100px;
 }
 
 .header__image {
@@ -51,10 +61,12 @@ rgba(235,235,235,1) 52%);
   grid-column: 2 / 3;
   align-self: center;
   text-align: center;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .header__nav {
-  grid-column: 3 / 3;
+  grid-column: 3 / 4;
   align-self: center;
   text-align: center;
 }
@@ -62,8 +74,8 @@ rgba(235,235,235,1) 52%);
 .nav__link {
   text-decoration: none;
   position: relative;
-  font-size: 17px;
-  margin-right: 10px;
+  font-size: 15px;
+  margin-right: 15px;
   color: #000000;
   transition: color .2s linear;
 }
@@ -94,3 +106,89 @@ rgba(235,235,235,1) 52%);
 .nav__link.active:after {
   opacity: 1;
 }
+
+/* Main */
+.cards__wrapper {
+  display: grid;
+  grid-template-columns: 2, 308px;
+  grid-template-rows: 2, 1fr;
+  justify-content: center;
+  text-align: center;
+  grid-column-gap: 30px;
+}
+
+.card {
+  margin-bottom: 30px;
+  transition: transform .2s linear;
+  box-shadow: 0 10px 50px #7e9bbd93;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.img__card {
+  margin-bottom: 25px;
+}
+
+.card1 {
+  grid-column: 1 / 2;
+}
+
+.card2 {
+  grid-column: 2 / 3;
+}
+
+.card__link {
+  color: #000000;
+  text-decoration: none;
+  transition: color .1s linear;
+}
+
+.card__link:hover {
+  color: #1100ff;
+}
+
+.card__title {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.card p {
+  font-size: 15px;
+}
+
+/* Footer */
+.footer {
+  background: rgb(102,137,189);
+  background: linear-gradient(180deg,
+rgba(102,137,189,0.639093137254902) 2%,
+rgba(235,235,235,1) 52%);
+  color: #000;
+  margin-top: 50px;
+  padding: 25px;  
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 3, 1ft;
+  justify-content: space-around;
+}
+
+.footer__contacts {
+  grid-column: 1 / 2;
+}
+
+.social__media {
+  grid-column: 2 / 3;
+}
+
+.media__vk {
+  filter: invert(1);
+}
+
+
+.footer__company {
+  grid-column: 3 / 4;
+}
+
