@@ -1,0 +1,15 @@
+/* Main */
+.introduce {
+  display: inline-block;
+  text-align: center;
+}
+
+.content__images {
+  text-align: center;
+}
+
+.therm__image {
+  max-width: 350px;
+  max-height: 350px;
+}
+  
