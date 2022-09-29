@@ -1,5 +1,7 @@
 /* Main */
 .main__content {
+  display: grid;
+  grid-template-columns: 1200px; 
   text-align: center;
 }
   
@@ -16,6 +18,6 @@
   text-decoration: underline;
 }
 
-.machine img {
+.machine__image {
   width: 400px;
 }
