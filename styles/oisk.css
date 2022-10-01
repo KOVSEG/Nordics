@@ -1,4 +1,12 @@
 /* Main */
+.introduction {
+  margin-bottom: 50px;
+}
+
+.info {
+  margin-bottom: 50px;
+}
+
 .info div {
   display: inline-block;
   text-align: center;
@@ -24,6 +32,11 @@
   margin-top: 20px;
 }
 
+.sertificate__title {
+  font-size: 17px;
+  font-weight: 700;
+}
+
 .image__sertificate {
-  width: 350px;
+  width: 300px;
 }
