@@ -1,27 +1,80 @@
 
 /* Main */
 .chapter__one {
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 10px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .worklist {
-    white-space: pre;
+  white-space: pre;
 }
 
-.shop__image {
-    width: 300px;
+.base__info {
+  margin-bottom: 50px;
 }
 
-.odk, .ksdk {
-    display: inline-block;
-    font-weight: 700;
-    text-align: center;
-    padding: 7px;
+.container .shop__list {
+  text-align: center;
+}
+
+.shop__list {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 30px;
+  align-items: center;
+  width: 750px;
+  height: 450px;
+  overflow-y: scroll;
+  margin-bottom: 50px;
+}
+
+.shop__img {
+  width: 300px;
+}
+
+.shop__title,
+.shop__price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ksdk {
+  text-align: center;
+  padding: 7px;
+  margin-bottom: 20px;
+}
+
+.ksdk__title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 25px;
 }
 
 .ksdk__image {
-    width: 200px;
+  width: 250px;
+}
+
+.ksdk__description {
+  margin-bottom: 20px;
+}
+
+.ksdk__sertificates {
+  text-align: center;
+  border-bottom: 2px solid rgba(0, 0, 0, .5);
+}
+
+.ksdk__sertificate {
+  width: 250px;
+  text-align: center;
+}
+
+.sertificate__title {
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(0, 0, 0, .5);
+  margin-bottom: 15px;
 }
