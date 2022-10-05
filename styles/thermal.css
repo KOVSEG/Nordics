@@ -4,12 +4,21 @@
   text-align: center;
 }
 
+.introduce h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.introduce p {
+  font-size: 17px;
+}
+
 .content__images {
   text-align: center;
 }
 
 .therm__image {
-  max-width: 350px;
-  max-height: 350px;
+  max-width: 19%;
 }
   

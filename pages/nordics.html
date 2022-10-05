@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/nordics.css">
+    <link rel="stylesheet" href="../styles/adaptive.css">
     <title>NORDICS</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="container">
         <div class="header__inner">
           <div class="header__logo">
@@ -18,8 +19,10 @@
             </a>
           </div>
           <div class="title___upper">
-            <p>Общество с Ограниченной Ответственностью</p>
-            <p>"НОРДИКС"</p>
+            <div class="title__contain">
+              <p>Общество с Ограниченной Ответственностью</p>
+              <p>"НОРДИКС"</p>
+            </div>
           </div>
 
           <nav class="header__nav">
@@ -28,11 +31,15 @@
             <a class="nav__link" href="./about.html">О Нас</a>
             <a class="nav__link" href="./contacts.html">Контакты</a>
           </nav>
+
+          <button class="nav__toggle" id="nav__toggle">
+            <span class="nav__toggle-item">Меню</span>
+          </button>
         </div>
       </div>
     </header>
 
-    <main class="main">
+    <main class="main" id="main">
       <div class="container">
         <div class="base__info">
           <p class="chapter__one">Компания НОРДИКС осуществляет свою деятельность с сфере строительства с 2009 года.</p>
@@ -204,5 +211,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="../scripts/script.js"></script>
   </body>
 </html>

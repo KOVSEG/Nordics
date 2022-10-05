@@ -5,106 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/adaptive.css">
     <title>NORDICS</title>
   </head>
   <body>
-    <body>
-      <header class="header">
-        <div class="container">
-            <div class="header__inner">
-              <div class="header__logo">
-                <a href="./index.html">
-                  <img class="header__image" src="./images/nordics/mini-img/nordics-logo.png" alt="логотип Нордикс">
-                </a>
-              </div>
-              <div class="title___upper">
+    <header class="header" id="header">
+      <div class="container">
+          <div class="header__inner">
+            <div class="header__logo">
+              <a href="./index.html">
+                <img class="header__image" src="./images/nordics/mini-img/nordics-logo.png" alt="логотип Нордикс">
+              </a>
+            </div>
+            <div class="title___upper">
+              <div class="title__contain">
                 <p>Общество с Ограниченной Ответственностью</p>
                 <p>"НОРДИКС"</p>
               </div>
-    
-              <nav class="header__nav">
-                <a class="nav__link active" href="./index.html">Главная</a>
-                <a class="nav__link" href="./pages/services.html">Услуги</a>
-                <a class="nav__link" href="./pages/about.html">О Нас</a>
-                <a class="nav__link" href="./pages/contacts.html">Контакты</a>
-              </nav>
-            </div>
-        </div>
-      </header>
-
-      <main class="main">
-        <div class="container">
-          <div class="content">
-            <div class="cards__wrapper">
-              <div class="card">
-                <a href="./pages/nordics.html" class="card__link">
-                  <img class="img__card card1" src="./images/nordics/mini-img/drawmini.jpg" alt="Нордикс">
-                  <h3 class="card__title">NORDICS</h3>
-                  <p>Строительство тепловых сетей</p>
-                  <p>Проектирование и монтаж системы ОДК</p>
-                  <p>Монтаж и ремонт котлов ПТВМ</p>
-                </a>
-              </div>
-    
-              <div class="card card2">            
-                <a href="./pages/rent.html" class="card__link">
-                  <img class="img__card" src="./images/rent/mini-img/1min.jpg" alt="Аренда спецтехники">
-                  <h3 class="card__title">Аренда спецтехники</h3>
-                  <p>Гусеничный экскаватор Hitachi</p>
-                  <p>Колесный экскаватор Volvo</p>
-                  <p>Экскаватор-погрузчик Caterpillar</p>
-                </a>
-              </div>
-    
-              <div class="card card3">
-                <a href="./pages/oisk.html" class="card__link">
-                  <img class="img__card" src="./images/laboratory/images/mini-img/labmini01.jpg" alt="ОИСК">
-                  <h3 class="card__title">ОИСК</h3>
-                  <p>УЗК, ВИК</p>
-                  <p>Дефектоскопия</p>
-                  <p>Лаборатория неразрушающего контроля</p>
-                  <p>Выданные заключения УЗК и акты ВИК</p>
-                </a>
-              </div>
-    
-              <div class="card card4">
-                <a href="./pages/thermal.html" class="card__link">
-                  <img class="img__card" src="./images/thermal/mini-img/termmini2.jpg" alt="Теплоизоляция">
-                  <h3 class="card__title">Теплоизоляция</h3>
-                  <p>Огрунтовка и окраска металлоконструкций</p>
-                  <p>Антикоррозийная обработка металла</p>
-                  <p>Нанесение теплоизоляции методом напыления ППУ</p>
-                </a>
-              </div> 
-             </div> <!--/cards__wrapper -->
-          </div> <!-- /content -->
-        </div> <!-- /container -->
-      </main>
-  
-      <footer class="footer">
-        <div class="container">
-          <div class="footer__inner">
-            <div class="footer__contacts">
-              <p> Левашовский проспект, дом 12, офис 200<br>
-                м. Чкаловская / м. Петроградская<br>
-                т.: +7 (905) 289-41-09<br>
-                nordix.spb@mail.ru
-              </p>
-            </div>
-
-            <div class="social__media">
-              <p>Мы в социальных сетях:</p>
-              <a class="social__vk" href="https://vk.com/public212610657" target="_blank"><img class="media__vk" src="./images/icons/vk.svg" alt="Вконтакте"></a>
             </div>
   
-            <div class="footer__company">
-              <h5>ООО НОРДИКС / ООО ОИСК</h5>
-              <p>&copy; Все права защищены</p>
-              <p>2009 - 2022</p>
+            <nav class="header__nav">
+              <a class="nav__link active__line" href="./index.html">Главная</a>
+              <a class="nav__link" href="./pages/services.html">Услуги</a>
+              <a class="nav__link" href="./pages/about.html">О Нас</a>
+              <a class="nav__link" href="./pages/contacts.html">Контакты</a>
+            </nav>
+
+            <button class="nav__toggle" id="nav__toggle">
+              <span class="nav__toggle-item">Меню</span>
+            </button>
+          </div>
+      </div>
+    </header>
+
+    <main class="main" id="main">
+      <div class="container">
+        <div class="content">
+          <div class="cards__wrapper">
+            <div class="card">
+              <a href="./pages/nordics.html" class="card__link">
+                <img class="img__card card1" src="./images/nordics/mini-img/drawmini.jpg" alt="Нордикс">
+                <h3 class="card__title">NORDICS</h3>
+                <p>Строительство тепловых сетей</p>
+                <p>Проектирование и монтаж системы ОДК</p>
+                <p>Монтаж и ремонт котлов ПТВМ</p>
+              </a>
             </div>
+  
+            <div class="card card2">            
+              <a href="./pages/rent.html" class="card__link">
+                <img class="img__card" src="./images/rent/mini-img/1min.jpg" alt="Аренда спецтехники">
+                <h3 class="card__title">Аренда спецтехники</h3>
+                <p>Гусеничный экскаватор Hitachi</p>
+                <p>Колесный экскаватор Volvo</p>
+                <p>Экскаватор-погрузчик Caterpillar</p>
+              </a>
+            </div>
+  
+            <div class="card card3">
+              <a href="./pages/oisk.html" class="card__link">
+                <img class="img__card" src="./images/laboratory/images/mini-img/labmini01.jpg" alt="ОИСК">
+                <h3 class="card__title">ОИСК</h3>
+                <p>УЗК, ВИК</p>
+                <p>Дефектоскопия</p>
+                <p>Лаборатория неразрушающего контроля</p>
+                <p>Выданные заключения УЗК и акты ВИК</p>
+              </a>
+            </div>
+  
+            <div class="card card4">
+              <a href="./pages/thermal.html" class="card__link">
+                <img class="img__card" src="./images/thermal/mini-img/termmini2.jpg" alt="Теплоизоляция">
+                <h3 class="card__title">Теплоизоляция</h3>
+                <p>Огрунтовка и окраска металлоконструкций</p>
+                <p>Антикоррозийная обработка металла</p>
+                <p>Нанесение теплоизоляции методом напыления ППУ</p>
+              </a>
+            </div> 
+            </div> <!--/cards__wrapper -->
+        </div> <!-- /content -->
+      </div> <!-- /container -->
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__contacts">
+            <p> Левашовский проспект, дом 12, офис 200<br>
+              м. Чкаловская / м. Петроградская<br>
+              т.: +7 (905) 289-41-09<br>
+              nordix.spb@mail.ru
+            </p>
+          </div>
+
+          <div class="social__media">
+            <p>Мы в социальных сетях:</p>
+            <a class="social__vk" href="https://vk.com/public212610657" target="_blank"><img class="media__vk" src="./images/icons/vk.svg" alt="Вконтакте"></a>
+          </div>
+
+          <div class="footer__company">
+            <h5>ООО НОРДИКС / ООО ОИСК</h5>
+            <p>&copy; Все права защищены</p>
+            <p>2009 - 2022</p>
           </div>
         </div>
-      </footer>
-    </body>
+      </div>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
