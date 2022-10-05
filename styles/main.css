@@ -25,7 +25,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .content {
   display: grid;
-  height: 100vh;
   align-content: stretch;
 }
 
@@ -179,6 +178,10 @@ rgba(235,235,235,1) 52%);
   margin-bottom: 30px;
   transition: transform .2s linear;
   box-shadow: 0 10px 50px #7e9bbd93;
+}
+
+.card__link p:last-child {
+  margin-bottom: 20px;
 }
 
 .card:hover {
