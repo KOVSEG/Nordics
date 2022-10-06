@@ -78,3 +78,89 @@
   border-bottom: 2px solid rgba(0, 0, 0, .5);
   margin-bottom: 15px;
 }
+
+/* Media */
+@media (max-width: 1024px) {
+  /* Main */
+  .ksdk__image {
+    width: 230px;
+  }
+}
+
+@media (max-width: 912px) {
+  /* Main */
+  .ksdk__image {
+    width: 210px;
+  }
+}
+
+@media (max-width: 820px) {
+  /* Main */
+  .ksdk__image {
+    width: 185px;
+  }
+}
+
+@media (max-width: 770px) {
+  /* Main */
+  body p, 
+  .ksdk__description {
+    font-size: 14px;
+  }
+
+  .chapter__one,
+  .sertificate__title {
+    font-size: 16px;
+  }
+
+  .shop__list {
+    grid-template-columns: 250px 150px;
+    width: 410px;
+    height: 300px;
+    grid-gap: 10px;
+  }
+
+  .shop__img {
+    width: 200px;
+  }
+
+  .ksdk__image {
+    width: 150px;
+  }
+
+  .ksdk__sertificate {
+    width: 150px;
+  }
+}
+
+@media (max-width: 670px) {
+  .worklist {
+    white-space: pre-line;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Main */
+  .ksdk__image {
+    width: 165px;
+  }
+}
+
+@media (max-width: 440px) {
+  body p,
+  .ksdk__description {
+    text-align: center;
+  }
+
+  /* Main */
+  .shop__list {
+    grid-template-columns: 160px 100px;
+    width: 270px;
+    height: 260px;
+  }
+
+  .shop__item,
+  .shop__img {
+    width: 150px;
+  }
+}
