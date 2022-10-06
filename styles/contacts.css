@@ -6,3 +6,38 @@
 .mapSpb {
   display: inline-block;
 }
+
+.mapSpb p {
+  margin-bottom: 15px;
+}
+
+/* Media */
+@media (max-width: 730px) {
+  /* Main */
+  iframe {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 530px) {
+  /* Main */
+  iframe {
+    width: 350px;
+  }
+}
+
+@media (max-width: 380px) {
+  /* Main */
+  iframe {
+    width: 280px;
+  }
+}
+
+@media (max-width: 280px) {
+  /* Main */
+  iframe {
+    width: 250px;
+    height: 400px;
+  }
+}

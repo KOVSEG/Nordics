@@ -165,6 +165,10 @@ rgba(235,235,235,1) 52%);
 }
 
 /* Main */
+.main {
+  min-height: 100vh;
+}
+
 .cards__wrapper {
   display: grid;
   grid-template-columns: 2, 308px;

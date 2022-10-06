@@ -1,5 +1,6 @@
 /* Main */
 .introduce {
+  margin-bottom: 20px;
   display: inline-block;
   text-align: center;
 }
@@ -15,10 +16,22 @@
 }
 
 .content__images {
-  text-align: center;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 2, 1fr;
 }
 
 .therm__image {
-  max-width: 19%;
+  width: 100%;
 }
-  
+
+/* Media */
+@media (max-width: 1200px) {
+  /* Main */
+  .content__images {
+    max-width: 700px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
