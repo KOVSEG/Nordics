@@ -10,7 +10,7 @@
     margin-right: 15px;
   }
 
-  .title___upper {
+  .title__upper {
     grid-column: 2 / 3;
     align-self: center;
     text-align: center;
@@ -45,7 +45,7 @@
 
 @media (max-width: 870px) {
   /* Header */
-  .title___upper {
+  .title__upper {
     align-self: baseline;
     text-align: inherit;
   }
@@ -142,7 +142,7 @@
     margin-right: 0;
   }
 
-  .title___upper {
+  .title__upper {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     margin: 0 auto;
