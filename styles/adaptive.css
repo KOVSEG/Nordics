@@ -10,6 +10,10 @@
     margin-right: 15px;
   }
 
+  .header__logo a{
+    text-decoration: none;
+  }
+
   .title__upper {
     grid-column: 2 / 3;
     align-self: center;

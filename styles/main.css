@@ -59,7 +59,10 @@ rgba(235,235,235,1) 52%);
 .header__logo {
   grid-column: 1 / 2;
   text-align: center;
-  margin-right: 100px;
+}
+
+.header__logo a{
+  text-decoration: none;
 }
 
 .header__image {
