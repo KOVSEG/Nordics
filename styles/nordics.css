@@ -4,36 +4,66 @@
   text-align: center;
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 
 .base__info {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .container .shop__list {
   text-align: center;
 }
 
+.shop__catalogue {
+  margin-bottom: 85px;
+}
+
+.catalogue {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 30px;
+  justify-content: space-around;
+}
+
+.catalogue__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 70px;
+  background-color: rgba(168, 190, 223, 0.6);
+  border-radius: 30px;
+}
+
+.catalogue__btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+}
+
 .shop__list {
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: 350px 350px;
-  grid-template-rows: 1fr 1fr;
-  grid-row-gap: 30px;
-  align-items: center;
-  width: 750px;
-  height: 450px;
-  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shop__item {
   margin-bottom: 50px;
 }
 
-.shop__img {
-  width: 300px;
+.shop__description {
+  margin-bottom: 20px;
 }
 
-.shop__title,
-.shop__price {
+.shop__img {
+  width: 270px;
+}
+
+.shop__title {
   font-size: 20px;
   font-weight: 700;
 }
@@ -126,12 +156,6 @@
 
   .ksdk__sertificate {
     width: 150px;
-  }
-}
-
-@media (max-width: 670px) {
-  .worklist {
-    white-space: pre-line;
   }
 }
 

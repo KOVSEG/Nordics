@@ -53,7 +53,6 @@ rgba(235,235,235,1) 52%);
 
 .header__inner {
   display: grid;
-  grid-template-columns: 3, 1fr;
 }
 
 .header__logo {
@@ -70,7 +69,8 @@ rgba(235,235,235,1) 52%);
 }
 
 .title__upper {
-  grid-column: 2 / 3;
+  grid-column: 2/4;
+  grid-row: 1/2;
   align-self: center;
   text-align: center;
   font-weight: 700;
@@ -78,7 +78,8 @@ rgba(235,235,235,1) 52%);
 }
 
 .header__nav {
-  grid-column: 3 / 4;
+  grid-column: 1/4;
+  grid-row: 2/3;
   align-self: center;
   text-align: center;
 }
