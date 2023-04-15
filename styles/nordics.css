@@ -49,6 +49,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .shop__item {
@@ -106,6 +108,37 @@
 }
 
 /* Media */
+@media (max-width: 1090px) {
+  /* Main */
+  .catalogue__btn {
+    width: 310px;
+  }
+
+  .shop__list {
+    max-width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+    column-gap: 50px;
+  }
+
+  .ksdk__images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    margin: 0 auto;
+    justify-content: center;
+    column-gap: 25px;
+  }
+
+  .sertificates__docs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    width: 500px;
+  }
+}
+
 @media (max-width: 1024px) {
   /* Main */
   .ksdk__image {
@@ -113,15 +146,19 @@
   }
 }
 
-@media (max-width: 912px) {
-  /* Main */
-  .ksdk__image {
-    width: 210px;
+@media (max-width: 970px) {
+  .catalogue__btn {
+    width: 270px;
   }
 }
 
-@media (max-width: 820px) {
+@media (max-width: 860px) {
   /* Main */
+  .catalogue {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
   .ksdk__image {
     width: 185px;
   }
@@ -140,22 +177,33 @@
   }
 
   .shop__list {
-    grid-template-columns: 250px 150px;
-    width: 410px;
-    height: 300px;
-    grid-gap: 10px;
+    max-width: 600px;
   }
 
   .shop__img {
-    width: 200px;
+    width: 240px;
+  }
+}
+
+@media (max-width: 630px) {
+  .shop__list {
+    width: 100%;
   }
 
-  .ksdk__image {
-    width: 150px;
+  .shop__img {
+    width: 210px;
+  }
+
+  .ksdk__images {
+    width: 440px;
+  }
+
+  .sertificates__docs {
+    width: 465px;
   }
 
   .ksdk__sertificate {
-    width: 150px;
+    width: 210px;
   }
 }
 
@@ -166,21 +214,15 @@
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 470px) {
   body p,
   .ksdk__description {
     text-align: center;
   }
 
   /* Main */
-  .shop__list {
-    grid-template-columns: 160px 100px;
-    width: 270px;
-    height: 260px;
-  }
-
-  .shop__item,
-  .shop__img {
-    width: 150px;
+  .ksdk__images,
+  .sertificates__docs {
+    width: min-content;
   }
 }

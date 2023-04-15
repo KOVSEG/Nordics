@@ -1,3 +1,38 @@
 .doc__info {
   white-space: pre-line;
 }
+
+.customer {
+  text-align: center;
+}
+
+table th:last-child {
+  display: none;
+}
+
+.customer__list {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  table th:last-child,
+  table td:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  table {
+    text-align: center;
+    margin-left: 17px;
+  }
+
+  table th,
+  table td:nth-last-child(2) {
+    display: none;
+  }
+
+  .customer__list {
+    margin-top: -90px;
+  }
+}
