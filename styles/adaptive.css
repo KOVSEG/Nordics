@@ -70,6 +70,22 @@
     grid-row: 3 / 4;
   }
 
+  .nav__link {
+    color: #fff;
+  }
+
+  .nav__link.active__line {
+    color: #00e7ff;
+  }
+
+  .nav__link:hover {
+    color: #00e7ff;
+  }
+
+  .nav__link:after {
+    background-color: #00e7ff;
+  }
+
   /* Main */
   .content {
     height: 100%;
