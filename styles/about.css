@@ -6,8 +6,8 @@
   text-align: center;
 }
 
-table th:last-child {
-  display: none;
+table {
+  text-align: center;
 }
 
 .customer__list {
