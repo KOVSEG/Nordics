@@ -239,8 +239,10 @@
     grid-template-rows: 70px 105px 70px;
   }
 
-  .header__image {
-    width: 100px;
+  .image__nordics,
+  .image__oisk {
+    width: 110px;
+    height: 105px;
   }
 
   .header__nav {

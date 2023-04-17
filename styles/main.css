@@ -53,12 +53,14 @@ rgba(0,0,0,1) 52%);
   text-decoration: none;
 }
 
-.header__image {
+.image__nordics {
   width: 150px;
+  height: 135px;
 }
 
-.image__nordics {
-  filter: invert(1);
+.image__oisk {
+  width: 150px;
+  height: 142px;
 }
 
 .title__upper {
