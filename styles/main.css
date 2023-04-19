@@ -283,3 +283,8 @@ rgba(0,0,0,1) 52%);
 .footer__company {
   grid-column: 3 / 4;
 }
+
+.company__name {
+  font-size: 13px;
+  font-weight: 700;
+}
