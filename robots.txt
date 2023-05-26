@@ -1,0 +1,2 @@
+Host: https://nordix.spb.ru
+Sitemap: https://nordix.spb.ru/sitemap.xml
