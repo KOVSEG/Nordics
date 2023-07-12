@@ -1,5 +1,9 @@
 @media (max-width: 950px) {
   /* Main */
+  .cards__wrapper {
+    line-height: 170%;
+  }
+
   .card {
     width: 300px;
     height: 340px;
@@ -101,7 +105,7 @@
     width: 408px;
     height: 350px;
     margin-bottom: 20px;
-    line-height: 15px;
+    line-height: 0;
   }
 
   .card__title {
